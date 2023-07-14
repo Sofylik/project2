@@ -1,0 +1,113 @@
+:root {
+    --logo-color: #95E1D3;
+    --line-color: #F38181;
+    --first-color: #333;
+    --second-color: #B6B6B6;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--first-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.line {
+    width: 60px;
+    height: 4px;
+    background: #F38181;
+}
+
+.header {
+    color: var(--logo-color);
+    width: 98px;
+    height: 33px;
+    text-decoration: none;
+}
+
+.about {
+    color: red;
+}
+
+.button {
+    background: var(--logo-color);
+    border: none;
+    padding: 14px 38px;
+    cursor: pointer;
+}
+
+.Laaqiq {
+    color: red;
+}
+
+.input {
+    color: #b6b6b6;
+    padding: 12px 10px;
+    width: 230px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Kaushan Script', sans-serif;
+
+}
+
+.text {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.img {
+    width: 380px;
+}
+
+/*img {
+    width: 37px;
+    height: 37px;
+}*/
+.section-one{
+    margin-top: 81px;
+}
+.section-two{
+    margin-top: 100px;
+}
+.photography{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--first-color);
+    text-transform: uppercase;
+}
+.team-name{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.team-position{
+    color: var(--second-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+p{
+    color: var(--second-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    margin-top: 80px;
+    border-top: 1px solid var(--second-color);
+    padding: 20px;
+    padding-top: 22px;
+}
+.footer-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-link{
+    color: var(--line-color);
+    
+}
