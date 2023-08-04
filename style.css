@@ -22,6 +22,8 @@ body {
     width: 98px;
     height: 33px;
     text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 
 .about {
@@ -107,4 +109,21 @@ p{
 .footer-link{
     color: var(--line-color);
     
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-item:hover,
+.header-item:focus{
+    color: var(--line-color);
+}
+.header-list{
+    display: flex;
+    gap: 55px;
+}
+.hero-item{
+    width: 328px;
+    display: flex;
 }
